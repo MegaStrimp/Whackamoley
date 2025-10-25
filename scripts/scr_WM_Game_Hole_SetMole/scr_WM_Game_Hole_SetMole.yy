@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Game_Hole_SetMole",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Game_Hole_SetMole",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Whackamoley/Game/Hole/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

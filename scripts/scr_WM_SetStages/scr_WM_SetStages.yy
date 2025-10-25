@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_SetStages",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_SetStages",
+  "parent":{
+    "name":"Initialization",
+    "path":"folders/Whackamoley/Game/Controller/Scripts/Initialization.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

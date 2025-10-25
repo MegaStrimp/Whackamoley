@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Mole_Hit_Default",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Mole_Hit_Default",
+  "parent":{
+    "name":"Hit",
+    "path":"folders/Whackamoley/Moles/Scripts/Hit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

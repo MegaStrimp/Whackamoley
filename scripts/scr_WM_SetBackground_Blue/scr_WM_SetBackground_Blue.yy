@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_SetBackground_Blue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_SetBackground_Blue",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Whackamoley/Backgrounds/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

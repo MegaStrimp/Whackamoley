@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Menu_Credits_Button_Back",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Menu_Credits_Button_Back",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Whackamoley/Menus/Credits/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

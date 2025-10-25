@@ -1,0 +1,1 @@
+sprite = spr_WM_UI_Button_Pause;

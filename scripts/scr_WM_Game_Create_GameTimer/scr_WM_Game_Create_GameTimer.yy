@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Game_Create_GameTimer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Game_Create_GameTimer",
+  "parent":{
+    "name":"Create",
+    "path":"folders/Whackamoley/Game/Controller/Scripts/Create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

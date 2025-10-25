@@ -1,0 +1,1 @@
+offsetTimer = offsetTimerMax / 3;

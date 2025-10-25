@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_SetMoles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_SetMoles",
+  "parent":{
+    "name":"Initialization",
+    "path":"folders/Whackamoley/Moles/Scripts/Initialization.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
