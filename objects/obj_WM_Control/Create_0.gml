@@ -43,16 +43,10 @@ window_set_caption(global.gameTitle + " " + string(global.versionNumber) + " - "
 #endregion
 
 #region Load Data
-/*scr_WM_LoadGeneral("general.ini");
-scr_WM_SaveGeneral("general.ini");
-
 scr_WM_LoadConfig("config.ini");
 scr_WM_SaveConfig("config.ini");
 
-scr_WM_DefaultKeybindings();
-scr_WM_LoadControls("controls.ini");
-
-scr_WM_LoadData("data1.ini");*/
+scr_WM_LoadData("data.ini");
 #endregion
 
 #region Discord Rich Presence Setup

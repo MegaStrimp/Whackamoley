@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_LoadData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_LoadData",
+  "parent":{
+    "name":"Data",
+    "path":"folders/Whackamoley/Data.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
