@@ -10,7 +10,10 @@ if (global.hasHud)
 #endregion
 
 #region Pause AI Draw GUI Begin
-if (gamePauseAIDrawGUIBegin != -1) script_execute(gamePauseAIDrawGUIBegin);
+if (global.gamePause)
+{
+	if (gamePauseAIDrawGUIBegin != -1) script_execute(gamePauseAIDrawGUIBegin);
+}
 #endregion
 
 if ((global.shaders) and (!global.applicationSurfaceAutoDraw) and (global.screenPalette != -1)) pal_swap_reset();

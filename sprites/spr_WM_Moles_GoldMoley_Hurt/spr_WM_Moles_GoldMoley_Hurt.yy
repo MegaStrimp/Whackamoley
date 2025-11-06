@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_WM_Moles_GoldMoley_Hurt",
   "bboxMode":0,
   "bbox_bottom":58,
@@ -17,8 +17,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"12fe8125-f620-46b5-8280-b1d02dfc11e2","name":"12fe8125-f620-46b5-8280-b1d02dfc11e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0f9aaf65-6310-46b7-aaac-d4e849890789","name":"0f9aaf65-6310-46b7-aaac-d4e849890789","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12fe8125-f620-46b5-8280-b1d02dfc11e2","name":"12fe8125-f620-46b5-8280-b1d02dfc11e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f9aaf65-6310-46b7-aaac-d4e849890789","name":"0f9aaf65-6310-46b7-aaac-d4e849890789","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,12 +76,8 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12fe8125-f620-46b5-8280-b1d02dfc11e2","path":"sprites/spr_WM_Moles_GoldMoley_Hurt/spr_WM_Moles_GoldMoley_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ee5d67eb-d3b6-4222-bf8b-d72d5db11363","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f9aaf65-6310-46b7-aaac-d4e849890789","path":"sprites/spr_WM_Moles_GoldMoley_Hurt/spr_WM_Moles_GoldMoley_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6447666c-36bf-433f-80e5-64b33aac64ed","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"12fe8125-f620-46b5-8280-b1d02dfc11e2","path":"sprites/spr_WM_Moles_GoldMoley_Hurt/spr_WM_Moles_GoldMoley_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ee5d67eb-d3b6-4222-bf8b-d72d5db11363","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f9aaf65-6310-46b7-aaac-d4e849890789","path":"sprites/spr_WM_Moles_GoldMoley_Hurt/spr_WM_Moles_GoldMoley_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6447666c-36bf-433f-80e5-64b33aac64ed","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

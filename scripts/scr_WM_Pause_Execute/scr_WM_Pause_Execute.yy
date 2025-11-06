@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Pause_Execute",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Pause_Execute",
+  "parent":{
+    "name":"Pause",
+    "path":"folders/Whackamoley/Pause.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

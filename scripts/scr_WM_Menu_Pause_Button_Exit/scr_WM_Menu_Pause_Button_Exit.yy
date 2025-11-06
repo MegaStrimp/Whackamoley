@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Menu_Pause_Button_Exit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Menu_Pause_Button_Exit",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Whackamoley/Menus/Pause/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

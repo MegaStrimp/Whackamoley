@@ -1,15 +1,15 @@
 {
-  "$GMWindowsOptions":"",
+  "$GMWindowsOptions":"v1",
   "%Name":"Windows",
   "ConfigValues":{
     "DesktopDebug":{
-      "option_windows_description_info":"",
-      "option_windows_product_info":"",
       "option_windows_company_info":"",
-      "option_windows_splash_screen":"splash/splash.png",
+      "option_windows_description_info":"",
+      "option_windows_icon":"icons/icon.ico",
       "option_windows_installer_finished":"installer/finished.bmp",
       "option_windows_installer_header":"installer/header.bmp",
-      "option_windows_icon":"icons/icon.ico",
+      "option_windows_product_info":"",
+      "option_windows_splash_screen":"splash/splash.png",
     },
   },
   "name":"Windows",
@@ -18,6 +18,7 @@
   "option_windows_company_info":"",
   "option_windows_copyright_info":"",
   "option_windows_copy_exe_to_dest":false,
+  "option_windows_d3dswapeffectdiscard":false,
   "option_windows_description_info":"",
   "option_windows_disable_sandbox":true,
   "option_windows_display_cursor":true,

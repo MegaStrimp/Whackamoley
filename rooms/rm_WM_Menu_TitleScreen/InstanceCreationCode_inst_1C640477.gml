@@ -1,2 +1,2 @@
 sprite = spr_WM_UI_Button_StageSelect;
-script = scr_WM_Menu_TitleScreen_Button_StageSelect;
+targetScript = scr_WM_Menu_TitleScreen_Button_StageSelect;

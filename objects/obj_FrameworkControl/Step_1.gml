@@ -9,8 +9,6 @@ speedMultFinal = global.speedMultGlobal * global.deltaTime;
 #endregion
 
 #region Game Pause
-var inGameplay = instance_exists(obj_Player);
-
 if (global.gamePause)
 {
 	#region Pause AI Step
@@ -19,12 +17,9 @@ if (global.gamePause)
 }
 else
 {
-	if (inGameplay)
-	{
-		#region Pause AI Execute
-		if (gamePauseAIExecute != -1) script_execute(gamePauseAIExecute);
-		#endregion
-	}
+	#region Pause AI Execute
+	if (gamePauseAIExecute != -1) script_execute(gamePauseAIExecute);
+	#endregion
 }
 
 #region Game Pause Delay Timer

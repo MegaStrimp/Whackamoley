@@ -10,7 +10,7 @@ for (var i = 0; i < global.WM_StageCount; i++)
 	with (button)
 	{
 		text = string(i + 1);
-		script = scr_WM_Menu_StageSelect_Button_Stage;
+		targetScript = scr_WM_Menu_StageSelect_Button_Stage;
 		scriptParameter = i;
 	}
 }

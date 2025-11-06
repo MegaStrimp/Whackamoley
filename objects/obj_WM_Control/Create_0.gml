@@ -22,6 +22,7 @@ global.versionNumber = "0.1.0";
 global.maxPlayers = 1;
 
 global.WM_CurrentStage = 0;
+global.WM_PauseFlag = false;
 
 scr_WM_SetMoles();
 scr_WM_SetStages();
@@ -34,6 +35,10 @@ scr_WM_SetStages();
 
 #region Audio Setup
 //scr_WM_AudioSetup();
+#endregion
+
+#region Pause Screen Setup
+scr_Pause_SetPause(scr_WM_Pause_Setup);
 #endregion
 
 #region Set Window Caption

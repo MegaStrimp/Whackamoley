@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Stage_End",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Stage_End",
+  "parent":{
+    "name":"Stage",
+    "path":"folders/Whackamoley/Game/Controller/Scripts/Stage.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
