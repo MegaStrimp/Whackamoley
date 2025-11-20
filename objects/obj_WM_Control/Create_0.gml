@@ -8,7 +8,7 @@ global.gameWidthTarget = 270;
 global.gameHeightTarget = 480;
 global.gameTileSize = 16;
 
-global.windowScaleTarget = 2;
+global.windowScaleTarget = 1;
 
 global.fullscreen = true;
 #endregion
@@ -23,6 +23,7 @@ global.maxPlayers = 1;
 
 global.WM_CurrentStage = 0;
 global.WM_PauseFlag = false;
+global.WM_IsEndless = false;
 
 scr_WM_SetMoles();
 scr_WM_SetStages();

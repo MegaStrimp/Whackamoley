@@ -15,10 +15,21 @@ currentHighScore = 0;
 gameTimer = -1;
 gameTimerMax = -1;
 gameTimerSeconds = 0;
+
+endlessSpawnTimer = -1;
+endlessSpawnTimerMax = 300;
+if (global.WM_IsEndless) endlessSpawnTimer = 0;
 #endregion
 #endregion
 
 #region Begin Stage
-scr_WM_Game_Create_Holes(targetStageID);
-scr_WM_Game_Create_GameTimer(targetStageID);
+if (global.WM_IsEndless)
+{
+	scr_WM_Game_Create_Holes(0);
+}
+else
+{
+	scr_WM_Game_Create_Holes(targetStageID);
+	scr_WM_Game_Create_GameTimer(targetStageID);
+}
 #endregion

@@ -2,7 +2,9 @@
 
 function scr_WM_Game_Create_Holes(targetStageID)
 {
-	for (var i = 0; i < global.WM_StageList[targetStageID].maxHoles; i++)
+	maxHoles = global.WM_StageList[targetStageID].maxHoles;
+	
+	for (var i = 0; i < maxHoles; i++)
 	{
 		var targetHole = global.WM_StageList[targetStageID].holes[i];
 		
