@@ -187,6 +187,7 @@
     {"name":"Button","order":1,"path":"folders/Whackamoley/UI/Button.yy",},
     {"name":"Objects","order":2,"path":"folders/Whackamoley/UI/Button/Objects.yy",},
     {"name":"Scripts","order":1,"path":"folders/Whackamoley/UI/Button/Scripts.yy",},
+    {"name":"Medals","order":2,"path":"folders/Whackamoley/UI/Medals.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"scribble_fallback_font","order":16,"path":"fonts/scribble_fallback_font/scribble_fallback_font.yy",},
@@ -701,6 +702,7 @@
     {"name":"scr_WM_AddStage","order":1,"path":"scripts/scr_WM_AddStage/scr_WM_AddStage.yy",},
     {"name":"scr_WM_AddStageHole","order":2,"path":"scripts/scr_WM_AddStageHole/scr_WM_AddStageHole.yy",},
     {"name":"scr_WM_AddStageMole","order":3,"path":"scripts/scr_WM_AddStageMole/scr_WM_AddStageMole.yy",},
+    {"name":"scr_WM_Game_Button_Exit","order":1,"path":"scripts/scr_WM_Game_Button_Exit/scr_WM_Game_Button_Exit.yy",},
     {"name":"scr_WM_Game_Create_GameTimer","order":1,"path":"scripts/scr_WM_Game_Create_GameTimer/scr_WM_Game_Create_GameTimer.yy",},
     {"name":"scr_WM_LoadConfig","order":1,"path":"scripts/scr_WM_LoadConfig/scr_WM_LoadConfig.yy",},
     {"name":"scr_WM_LoadData","order":3,"path":"scripts/scr_WM_LoadData/scr_WM_LoadData.yy",},
@@ -945,5 +947,7 @@
     {"name":"spr_WM_UI_Button_Resume","order":7,"path":"sprites/spr_WM_UI_Button_Resume/spr_WM_UI_Button_Resume.yy",},
     {"name":"spr_WM_UI_Button_Settings","order":2,"path":"sprites/spr_WM_UI_Button_Settings/spr_WM_UI_Button_Settings.yy",},
     {"name":"spr_WM_UI_Button_StageSelect","order":3,"path":"sprites/spr_WM_UI_Button_StageSelect/spr_WM_UI_Button_StageSelect.yy",},
+    {"name":"spr_WM_UI_Medal_Gold","order":2,"path":"sprites/spr_WM_UI_Medal_Gold/spr_WM_UI_Medal_Gold.yy",},
+    {"name":"spr_WM_UI_Medal_Silver","order":1,"path":"sprites/spr_WM_UI_Medal_Silver/spr_WM_UI_Medal_Silver.yy",},
   ],
 }

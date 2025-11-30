@@ -1,6 +1,6 @@
 ///@description WM - Add Stage
 
-function scr_WM_AddStage(targetID,targetStageOrder)
+function scr_WM_AddStage(targetID,targetStageOrder,targetMedalScores = [100,200,300])
 {
 	var mappedID = global.WM_StageCount;
 	
@@ -15,7 +15,7 @@ function scr_WM_AddStage(targetID,targetStageOrder)
 		moles: [],
 		maxMoles: 0,
 		maxTime: 0,
-		medalScores: [],
+		medalScores: targetMedalScores,
 		isUnlocked: false,
 		maxScore: 0,
 		obtainedMedal: 0

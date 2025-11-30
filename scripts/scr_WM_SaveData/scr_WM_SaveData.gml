@@ -21,6 +21,7 @@ function scr_WM_SaveData(file)
 	{
 		var stageID = global.WM_StageList[i].ID;
 		
+		if (global.WM_StageList[i].isUnlocked != false) ini_write_real("stageStatus",string(stageID) + "_IsUnlocked",global.WM_StageList[i].isUnlocked);
 		if (global.WM_StageList[i].maxScore != 0) ini_write_real("stageStatus",string(stageID) + "_MaxScore",global.WM_StageList[i].maxScore);
 		if (global.WM_StageList[i].obtainedMedal != 0) ini_write_real("stageStatus",string(stageID) + "_ObtainedMedal",global.WM_StageList[i].obtainedMedal);
 	}

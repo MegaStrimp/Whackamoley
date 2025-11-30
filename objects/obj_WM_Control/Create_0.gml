@@ -22,6 +22,7 @@ global.versionNumber = "0.1.0";
 global.maxPlayers = 1;
 
 global.WM_CurrentStage = 0;
+global.WM_CurrentMedal = 0;
 global.WM_PauseFlag = false;
 global.WM_IsEndless = false;
 

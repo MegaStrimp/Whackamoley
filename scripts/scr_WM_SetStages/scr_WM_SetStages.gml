@@ -18,6 +18,7 @@ function scr_WM_SetStages()
 	#region Stages
 	#region Stage 1
 	var mappedStageID = scr_WM_AddStage("stage1",1);
+	global.WM_StageList[mappedStageID].isUnlocked = true;
 	
 	scr_WM_AddStageHole(mappedStageID,72,210);
 	scr_WM_AddStageHole(mappedStageID,198,210);

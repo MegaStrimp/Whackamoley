@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_WM_Game_Button_Exit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_WM_Game_Button_Exit",
+  "parent":{
+    "name":"Buttons",
+    "path":"folders/Whackamoley/Game/Controller/Scripts/Buttons.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -21,8 +21,9 @@ function scr_WM_LoadData(file)
 	{
 		var stageID = global.WM_StageList[i].ID;
 		
-		global.WM_StageList[i].maxScore = ini_read_real("stageStatus",string(stageID) + "_MaxScore",0);
-		global.WM_StageList[i].obtainedMedal = ini_read_real("stageStatus",string(stageID) + "_ObtainedMedal",0);
+		global.WM_StageList[i].isUnlocked = ini_read_real("stageStatus",string(stageID) + "_IsUnlocked",global.WM_StageList[i].isUnlocked);
+		global.WM_StageList[i].maxScore = ini_read_real("stageStatus",string(stageID) + "_MaxScore",global.WM_StageList[i].maxScore);
+		global.WM_StageList[i].obtainedMedal = ini_read_real("stageStatus",string(stageID) + "_ObtainedMedal",global.WM_StageList[i].obtainedMedal);
 	}
 	#endregion
 	

@@ -10,7 +10,7 @@ targetStageID = 0;
 
 currentMoleIndex = 0;
 
-currentHighScore = 0;
+currentHighScore = global.WM_StageList[global.WM_CurrentStage].maxScore;
 
 gameTimer = -1;
 gameTimerMax = -1;
@@ -19,6 +19,7 @@ gameTimerSeconds = 0;
 endlessSpawnTimer = -1;
 endlessSpawnTimerMax = 300;
 if (global.WM_IsEndless) endlessSpawnTimer = 0;
+stageEnded = false;
 #endregion
 #endregion
 

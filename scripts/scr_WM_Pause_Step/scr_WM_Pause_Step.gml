@@ -43,9 +43,6 @@ function scr_WM_Pause_Step()
 				
 				scr_Stage_End();
 				
-				global.WM_CurrentArenaList = -1;
-				global.WM_ArenaListIndex = 0;
-				
 				global.gamePause_Leave = true;
 				
 				gamePauseEndTimer = 60;
