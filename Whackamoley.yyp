@@ -234,6 +234,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Whackamoley/UI/Button/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Whackamoley/UI/Button/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Whackamoley/UI/Button/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Heart","folderPath":"folders/Whackamoley/UI/Heart.yy","name":"Heart","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Medals","folderPath":"folders/Whackamoley/UI/Medals.yy","name":"Medals","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -250,7 +251,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"Whackamoley",
   "resources":[
@@ -1163,6 +1164,7 @@
     {"id":{"name":"spr_WM_UI_Button_Resume","path":"sprites/spr_WM_UI_Button_Resume/spr_WM_UI_Button_Resume.yy",},},
     {"id":{"name":"spr_WM_UI_Button_Settings","path":"sprites/spr_WM_UI_Button_Settings/spr_WM_UI_Button_Settings.yy",},},
     {"id":{"name":"spr_WM_UI_Button_StageSelect","path":"sprites/spr_WM_UI_Button_StageSelect/spr_WM_UI_Button_StageSelect.yy",},},
+    {"id":{"name":"spr_WM_UI_Heart","path":"sprites/spr_WM_UI_Heart/spr_WM_UI_Heart.yy",},},
     {"id":{"name":"spr_WM_UI_Medal_Bronze","path":"sprites/spr_WM_UI_Medal_Bronze/spr_WM_UI_Medal_Bronze.yy",},},
     {"id":{"name":"spr_WM_UI_Medal_Gold","path":"sprites/spr_WM_UI_Medal_Gold/spr_WM_UI_Medal_Gold.yy",},},
     {"id":{"name":"spr_WM_UI_Medal_Silver","path":"sprites/spr_WM_UI_Medal_Silver/spr_WM_UI_Medal_Silver.yy",},},

@@ -17,7 +17,7 @@ function scr_WM_SetStages()
 	
 	#region Stages
 	#region Stage 1
-	var mappedStageID = scr_WM_AddStage("stage1",1);
+	var mappedStageID = scr_WM_AddStage("stage1",1,[300,600,900]);
 	global.WM_StageList[mappedStageID].isUnlocked = true;
 	
 	scr_WM_AddStageHole(mappedStageID,72,210);
@@ -45,7 +45,7 @@ function scr_WM_SetStages()
 	#endregion
 	
 	#region Stage 2
-	var mappedStageID = scr_WM_AddStage("stage2",2);
+	var mappedStageID = scr_WM_AddStage("stage2",2,[500,1000,1400]);
 	
 	scr_WM_AddStageHole(mappedStageID,72,210);
 	scr_WM_AddStageHole(mappedStageID,198,210);

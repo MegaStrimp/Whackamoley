@@ -23,6 +23,8 @@ function scr_WM_Stage_End()
 	
 	global.WM_CurrentMedal = global.WM_StageList[global.WM_CurrentStage].obtainedMedal;
 	
+	global.WM_Health = global.WM_HealthMax;
+	
 	with (obj_WM_UI_Button) instance_destroy();
 	
 	exitButton = instance_create_depth(138,295,depth - 1,obj_WM_UI_Button);

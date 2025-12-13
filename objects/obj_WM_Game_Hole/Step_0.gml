@@ -33,6 +33,17 @@ if (!localPause)
 					moleRetreatTimer = 0;
 					
 					global.levelScoreCurrent = max(0,global.levelScoreCurrent + moleDeathScore);
+					
+					if (moleDeathScore < 0)
+					{
+						global.WM_Health -= 1;
+						
+						if (global.WM_Health <= 0)
+						{
+							scr_WM_Stage_End();
+							room_goto(global.roomPrevious);
+						}
+					}
 				}
 			}
 			

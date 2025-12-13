@@ -25,6 +25,8 @@ global.WM_CurrentStage = 0;
 global.WM_CurrentMedal = 0;
 global.WM_PauseFlag = false;
 global.WM_IsEndless = false;
+global.WM_HealthMax = 3;
+global.WM_Health = global.WM_HealthMax;
 
 scr_WM_SetMoles();
 scr_WM_SetStages();

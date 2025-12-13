@@ -8,6 +8,13 @@ scribble_font_set_default("fnt_Advance");
 scribble(string_replace_all(string_format(gameTimerSeconds,2,0)," ","0")).scale(2).align(fa_center).draw(global.gameWidth / 2,30);
 #endregion
 
+#region Health
+for (var i = 0; i < global.WM_Health; i++)
+{
+	draw_sprite(spr_WM_UI_Heart,0,20 + (40 * i),global.gameHeight - 100);
+}
+#endregion
+
 #region Score
 scribble(string_replace_all(string_format(global.levelScoreCurrent,6,0)," ","0")).scale(2).align(fa_center).draw(global.gameWidth / 2,global.gameHeight - 60);
 

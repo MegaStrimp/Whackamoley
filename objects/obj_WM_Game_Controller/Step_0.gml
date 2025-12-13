@@ -12,6 +12,12 @@ if (!localPause)
 	{
 		gameTimer = max(gameTimer - 1,-1);
 		if ((gameTimer % 60) == 0) gameTimerSeconds -= 1;
+		
+		if ((gameTimer == -1) and (!stageEnded))
+		{
+			stageEnded = true;
+			scr_WM_Stage_End();
+		}
 	}
 	#endregion
 	
