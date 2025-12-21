@@ -45,7 +45,7 @@ function scr_WM_SetStages()
 	#endregion
 	
 	#region Stage 2
-	var mappedStageID = scr_WM_AddStage("stage2",2,[500,1000,1400]);
+	var mappedStageID = scr_WM_AddStage("stage2",2,[400,800,1100]);
 	
 	scr_WM_AddStageHole(mappedStageID,72,210);
 	scr_WM_AddStageHole(mappedStageID,198,210);

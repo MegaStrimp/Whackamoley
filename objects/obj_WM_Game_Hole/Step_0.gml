@@ -40,7 +40,7 @@ if (!localPause)
 						
 						if (global.WM_Health <= 0)
 						{
-							scr_WM_Stage_End();
+							scr_WM_Stage_End(false);
 							room_goto(global.roomPrevious);
 						}
 					}

@@ -8,7 +8,7 @@ global.gameWidthTarget = 270;
 global.gameHeightTarget = 480;
 global.gameTileSize = 16;
 
-global.windowScaleTarget = 1;
+global.windowScaleTarget = 2;
 
 global.fullscreen = true;
 #endregion

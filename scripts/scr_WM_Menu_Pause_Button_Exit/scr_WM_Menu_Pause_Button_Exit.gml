@@ -9,5 +9,7 @@ function scr_WM_Menu_Pause_Button_Exit()
 		gamePauseEndTimer = 0;
 	}
 	
+	scr_WM_Stage_End(false);
+	
 	if (!instance_exists(obj_Transition)) scr_GoToRoom(global.roomPrevious,false);
 }
